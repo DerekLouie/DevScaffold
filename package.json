@@ -17,7 +17,9 @@
     "underscore": "~1.6.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.1"
+    "gulp": "^3.8.1",
+    "map-stream": "~0.1.0",
+    "q": "~1.0.1"
   },
   "scripts": {
     "test": "gulp"
