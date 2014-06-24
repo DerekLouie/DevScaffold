@@ -1,0 +1,39 @@
+{
+  "name": "DevelopmentScaffold",
+  "version": "0.0.0",
+  "description": "Scaffold for fast website development",
+  "main": "flo.js",
+  "dependencies": {
+    "gulp-changed": "~0.4.0",
+    "gulp-concat": "~2.2.0",
+    "fb-flo": "~0.2.1",
+    "gulp": "~3.7.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-sass": "~0.7.1",
+    "gulp-jshint": "~1.6.1",
+    "jshint-stylish": "~0.2.0",
+    "gulp-watch": "~0.6.5",
+    "gulp-plumber": "~0.6.2",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.1"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DerekLouie/DevScaffold"
+  },
+  "keywords": [
+    "Gulp",
+    "fb-flo"
+  ],
+  "author": "Derek Louie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerekLouie/DevScaffold/issues"
+  },
+  "homepage": "https://github.com/DerekLouie/DevScaffold"
+}
