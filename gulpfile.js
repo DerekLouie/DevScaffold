@@ -10,6 +10,7 @@ var map = require('map-stream');
 var stylish = require('jshint-stylish');
 var plumber = require('gulp-plumber');
 var _ = require('underscore');
+var prefix = require('gulp-autoprefixer');
 var node;
 
 
@@ -42,6 +43,7 @@ gulp.task('bundle_css', function() {
     .pipe(plumber({errorHandler: onError}))
     .pipe(sass())
     .pipe(concat('bundle.css'))
+    .pipe(prefix({ cascade: true }))
     .pipe(gulp.dest('./site'));
 });
 
